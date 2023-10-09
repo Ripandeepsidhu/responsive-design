@@ -48,26 +48,38 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  .p1 {
+  .section1 .p1 {
     font-size: 42px;
   }
-  .main-img {
+  .img-container .main-img {
     width: 617px;
     height: 512px;
   }
-  .p2 {
+  .section1 .p2 {
     font-size: 22px;
   }
 }
-@media screen and (max-width: 320px) {
-  .p1 {
+@media screen and (max-width: 600px) {
+  .section1 .p1 {
     font-size: 36px;
   }
-  .main-img {
+  .img-container .main-img {
     width: 256px;
     height: 284px;
   }
-  .p2 {
+  .section1 .p2 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .section1 .p1 {
+    font-size: 36px;
+  }
+  .img-container .main-img {
+    width: 256px;
+    height: 284px;
+  }
+  .section1 .p2 {
     font-size: 12px;
   }
 }

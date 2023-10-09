@@ -36,33 +36,57 @@ body{
 }
 
   
-
-
-
-@media screen and ( max-width: 800px){
-    .p1{
-        font-size: 42px;
-        
+@media screen and (max-width:width: 1440px;){
+    .section1 .p1{
+        font-size: 90px;
     }
-    .main-img{
-        width: 617px;
-        height: 512px;
+    .img-container .main-img{
+        width: 864px;
+        height: 328px;  
     }
-    .p2{
+    .section1 .p2{
         font-size: 22px;
     }
 }
+
+
+@media screen and ( max-width: 800px){
+    .section1 .p1{
+        font-size: 42px;
+        
+    }
+   .img-container .main-img{
+        width: 617px;
+        height: 512px;
+    }
+    .section1 .p2{
+        font-size: 22px;
+    }
+}
+@media screen and ( max-width: 600px){
+    .section1 .p1{
+        font-size: 38px;
+    }
+    .img-container .main-img{
+        width: 480px;
+        height: 384px;
+    }
+    .section1 .p2{
+        font-size: 16px;
+    }
+}
 @media screen and ( max-width: 320px){
-    .p1{
+    .section1 .p1{
         font-size: 36px;
     }
-    .main-img{
+    .img-container .main-img{
         width: 256px;
         height: 284px;
     }
-    .p2{
+    .section1 .p2{
         font-size: 12px;
     }
+    
 }
 
 @import 'header'
