@@ -3,7 +3,7 @@ header{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px; 
 }
  header .nav-container{
@@ -35,5 +35,10 @@ header .logo{
     letter-spacing: -0.25px;
     width: 90px;
 }
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
 
     
