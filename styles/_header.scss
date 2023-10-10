@@ -35,10 +35,13 @@ header .logo{
     letter-spacing: -0.25px;
     width: 90px;
 }
-.icon{
+header .icon{
     width: 24px;
     height: 24px;
+    display: none;
 }
-
+a:hover{
+    border-bottom: solid 2px;
+}
 
     
