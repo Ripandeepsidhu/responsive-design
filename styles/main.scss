@@ -1,3 +1,5 @@
+@import 'header';
+
 body{
     min-height: 320px;
     max-width: 1440px;
@@ -67,7 +69,8 @@ body{
         font-size: 16px;
     }
 }
-@media screen and ( min-width: 320px) and (max-width:599px){
+
+@media screen and (max-width:320px){
     .section1 .p1{
         font-size: 36px;
     }
@@ -82,13 +85,9 @@ body{
     header .icon{
         display: flex;
     }
-    
-}
-@media screen and (min-width:320px) and (max-width:599px){
   .nav-container .nav-item{
         display: none;
     }
     
 }
 
-@import 'header'
